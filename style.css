@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(0, 0, 0);
+  background-image: url("images/giphy-static.gif");
+  background-size: cover;
+  margin: 0px;
+}
+
+h1, h2 {
+  font-family: 'Ruda', sans-serif;
+  font-size: 47px;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #636262;
+}
+
+.card-main {
+  background-color: black;
+  padding: 10px;
+  width: 500px;
+  margin:40px left;
+  text-align: left;
+  font-weight: lighter;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #f8f8ff;
+}
+
+img-circle {
+  border-radius: 0%;
+  width: 200px;
+  padding: 20px;
+
+}
+
+.btn-dark {
+  background-color: #2b2b28;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  transition: ease 0.3s;
+  font-size: 14px;
+}
+
+.btn-dark:hover {
+  background-color: #9E9E9E;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.icon-social {
+  font-size: 20px;
+  text-align: left;
+  padding-right: 10px;
+  /*color: rgb(230, 230, 230);*/
+}
+
+.icon-social:hover {
+  opacity: 0.8;
+}
